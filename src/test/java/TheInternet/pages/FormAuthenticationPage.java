@@ -16,7 +16,7 @@ public class FormAuthenticationPage {
     }
 
     public void open() {
-        driver.get("https://the-internet.herokuapp.com/login");
+        Browser.visit("https://the-internet.herokuapp.com/login");
     }
 
     public void login(String username, String password) {
